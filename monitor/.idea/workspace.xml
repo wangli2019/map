@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002255dd-3607-4320-aa77-3bc8a79b3745" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/webpack.dev.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -11,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -51,33 +61,94 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="1715051731">
+    <session id="1093307317">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="babelrc" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="js" value="4" />
+          <entry key="json" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="4" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="123" />
+          <entry key="json" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="22" />
+          <entry key="JavaScript" value="123" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.dev.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="-1349">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -87,18 +158,31 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>path</find>
+      <find>babel/preset-en</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="D:\soft\gradle-5.4.1-all\gradle-5.4.1" />
+        <entry key="$PROJECT_DIR$" value="E:\soft\gradle-4.6" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="5.4.1" />
+        <entry key="$PROJECT_DIR$" value="4.6" />
       </map>
     </option>
     <option name="availableProjects">
@@ -167,10 +251,6 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareKotlinBuildScriptModel" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -197,7 +277,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1587134117112" />
+        <entry key="$PROJECT_DIR$" value="1588150002802" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
       </map>
     </option>
@@ -220,171 +300,81 @@
               <option name="name" value="monitor" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/announce" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/antlr" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/base-services" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/base-services-groovy" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-cache" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-cache-http" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-cache-packaging" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-comparison" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-init" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-option" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/build-profile" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/cli" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/code-quality" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/composite-builds" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/core" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/core-api" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/dependency-management" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/diagnostics" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/docs" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/ear" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/execution" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/files" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/ide" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/ide-native" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/ide-play" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/installation-beacon" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/internal-android-performance-testing" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/internal-integ-testing" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/internal-performance-testing" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/internal-testing" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/ivy" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/jacoco" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/javascript" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/jvm-services" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/kotlin-dsl" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/kotlin-dsl-plugins" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/kotlin-dsl-provider-plugins" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/kotlin-dsl-test-fixtures" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/kotlin-dsl-tooling-builders" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/kotlin-dsl-tooling-models" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/language-groovy" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/language-java" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/language-jvm" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/language-native" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/language-scala" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/launcher" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/logging" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/maven" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/messaging" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/model-core" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/model-groovy" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/native" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/osgi" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/persistent-cache" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/platform-base" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/platform-jvm" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/platform-native" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/platform-play" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/plugin-development" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/plugin-use" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/plugins" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/process-services" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/publish" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/reporting" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/resources" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/resources-gcs" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/resources-http" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/resources-s3" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/resources-sftp" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/scala" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/signing" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/snapshots" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/test-kit" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/testing-base" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/testing-junit-platform" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/testing-jvm" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/testing-native" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/tooling-api" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/tooling-api-builders" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/tooling-native" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/version-control" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/workers" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/src/wrapper" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/ant-1.9.13.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/ant-launcher-1.9.13.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-api-metadata-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-base-services-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-base-services-groovy-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-build-cache-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-build-cache-packaging-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-build-option-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-cli-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-core-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-core-api-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-docs-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-execution-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-files-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-installation-beacon-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-jvm-services-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-kotlin-dsl-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-kotlin-dsl-tooling-models-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-launcher-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-logging-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-messaging-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-model-core-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-model-groovy-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-native-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-persistent-cache-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-process-services-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-resources-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-runtime-api-info-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-snapshots-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-tooling-api-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/gradle-wrapper-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-announce-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-antlr-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-build-cache-http-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-build-comparison-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-build-init-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-build-profile-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-code-quality-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-composite-builds-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-dependency-management-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-diagnostics-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-ear-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-ide-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-ide-native-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-ide-play-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-ivy-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-jacoco-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-javascript-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-kotlin-dsl-provider-plugins-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-kotlin-dsl-tooling-builders-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-language-groovy-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-language-java-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-language-jvm-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-language-native-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-language-scala-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-maven-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-osgi-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-platform-base-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-platform-jvm-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-platform-native-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-platform-play-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-plugin-development-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-plugin-use-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-plugins-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-publish-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-reporting-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-resources-gcs-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-resources-http-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-resources-s3-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-resources-sftp-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-scala-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-signing-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-test-kit-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-testing-base-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-testing-junit-platform-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-testing-jvm-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-testing-native-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-tooling-api-builders-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-tooling-native-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-version-control-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/gradle-workers-5.4.1.jar" />
-                  <option value="D:/soft/gradle-5.4.1-all/gradle-5.4.1/lib/plugins/ivy-2.3.0.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/ant-1.9.9.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/ant-launcher-1.9.9.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-base-services-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-build-cache-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-build-option-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-cli-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-core-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-core-api-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-docs-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-launcher-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-logging-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-messaging-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-model-core-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-native-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-process-services-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-resources-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/gradle-wrapper-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/groovy-all-2.4.12.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-announce-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-ide-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-language-java-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-reporting-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-signing-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-test-kit-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-testing-base-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="E:/soft/gradle-4.6/lib/plugins/ivy-2.2.0.jar" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -403,7 +393,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config/webpack.dev.config.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
@@ -417,16 +409,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="55" />
+    <option name="x" value="781" />
+    <option name="y" value="162" />
     <option name="width" value="1750" />
-    <option name="height" value="1030" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -434,20 +421,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="monitor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monitor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -458,11 +440,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587917490545" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588238656747" />
+    <property name="last_opened_file_path" value="F:/hollyworkspace/Yygl/holly.wdp.site/settings.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="E:\soft\ideaIU-2018.2.3_.win\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -476,7 +459,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -487,8 +527,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -504,34 +549,36 @@
       <option name="presentableId" value="Default" />
       <updated>1587907185992</updated>
       <workItem from="1587907190187" duration="4760000" />
-      <workItem from="1588088392489" duration="632000" />
-      <workItem from="1588172483567" duration="1645000" />
+      <workItem from="1588149986275" duration="9212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7037000" />
+    <option name="totallyTimeSpent" value="13972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4277959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32790446" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -557,17 +604,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@babel/core/lib/config/validation/option-assertions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="299">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.dev.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="-1349">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
